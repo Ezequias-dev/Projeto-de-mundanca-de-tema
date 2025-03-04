@@ -9,7 +9,8 @@ body {
   flex-direction: column;
   width: 100%;
   color: #001224;
-  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  overflow-x: hidden;
+  transition: background-color 0.4s, color 0.4s, border 0.4s;
 }
 
 h1 {
@@ -19,7 +20,7 @@ h1 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
   max-width: 80%;
   text-align: justify;
@@ -36,7 +37,7 @@ button {
   min-width: 30%;
   border: 3px solid #001224;
   cursor: pointer;
-  transition: 400ms;
+  transition: 500ms;
 }
 
 button:hover {
