@@ -54,6 +54,7 @@ button:hover {
 .dark-theme button {
   background-color: #7bb0e2;
   color: #001224;
+  border: 3px solid #7bb0e2;
 }
 
 .dark-theme button:hover {
